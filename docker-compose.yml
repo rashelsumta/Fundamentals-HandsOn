@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fundamentalshandson:
+    image: fundamentalshandson
+    build:
+      context: .
+      dockerfile: ./Dockerfile
